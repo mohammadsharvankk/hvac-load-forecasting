@@ -1,0 +1,4 @@
+# Separate environment for the Keras model (TensorFlow has no stable Windows wheel for Python 3.14 yet).
+# Create it with Python 3.12 or 3.13. It reads the cached windows, so it needs no pandas.
+numpy>=1.26
+tensorflow>=2.20

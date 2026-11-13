@@ -2,8 +2,8 @@ numpy>=1.26
 pandas>=2.1
 scikit-learn>=1.4
 torch>=2.2
-# added in later steps:
-# tensorflow>=2.16
-# xgboost>=2.0
+xgboost>=2.0
+# TensorFlow lives in a separate environment: see requirements-tf.txt
+# added in later stages:
 # pyspark>=3.5
 # fastapi, uvicorn
